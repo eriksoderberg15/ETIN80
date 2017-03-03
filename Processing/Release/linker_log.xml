@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Program Files/Analog Devices/VisualDSP 5.1.2/System/linker_log.xsl"?>
+<DOCUMENT gen_time='Fri Mar 03 10:09:21 2017
+'>
+<MSG id='02B909D0' mid='li3201' type='Informational' suppressed=''>
+<TEXT><![CDATA[Successfully eliminated 3048 bytes in processor 'p0'
+]]></TEXT>
+<EXTENDED_INFO><![CDATA[Eliminated object (_dsp_get_cycles, ._dsp_get_cycles.end) of size 30 bytes from '.\Release\framework.doj(seg_pmco)'
+Eliminated object (_memreg_bit_clr, ._memreg_bit_clr.end) of size 48 bytes from '.\Release\framework.doj(seg_pmco)'
+Eliminated object (_dsp_stop, ._dsp_stop.end) of size 126 bytes from '.\Release\framework.doj(seg_pmco)'
+Eliminated object (_dsp_get_audio_u31, ._dsp_get_audio_u31.end) of size 54 bytes from '.\Release\framework.doj(seg_pmco)'
+Eliminated object (_dsp_get_audio_u33, ._dsp_get_audio_u33.end) of size 54 bytes from '.\Release\framework.doj(seg_pmco)'
+Eliminated object (___lib_setup_runtime_heap, .___lib_setup_runtime_heap.end) of size 18 bytes from 'libc26x.dlb[set_c.doj](seg_pmco)'
+Eliminated object (_interruptss, ._interruptss.end) of size 18 bytes from 'libc26x.dlb[interrup.doj](seg_pmco)'
+Eliminated object (_interruptcb, ._interruptcb.end) of size 18 bytes from 'libc26x.dlb[interrup.doj](seg_pmco)'
+Eliminated object (_interruptf, ._interruptf.end) of size 18 bytes from 'libc26x.dlb[interrup.doj](seg_pmco)'
+Eliminated object (__Geterrno, .__Geterrno.end) of size 30 bytes from 'libc26x.dlb[errno.doj](seg_pmco)'
+Eliminated object (___lib_ss_int_cntrl, .___lib_ss_int_cntrl.end) of size 144 bytes from 'libc26x.dlb[int_cnss.doj](seg_pmco)'
+Eliminated object (___lib_cb_int_cntrl, .___lib_cb_int_cntrl.end) of size 2178 bytes from 'libc26x.dlb[int_cncbl.doj](seg_pmco)'
+Eliminated object (___lib_faster_int_cntrl, .___lib_faster_int_cntrl.end) of size 312 bytes from 'libc26x.dlb[int_cnfl.doj](seg_pmco)'
+]]></EXTENDED_INFO>
+</MSG>
+</DOCUMENT>
