@@ -38,19 +38,19 @@ ifeq ($(MAKECMDGOALS),NewProject_Release)
 
 NewProject_Release : ./Release/NewProject.ldr 
 
-./Release/echo.doj :Release/echo.c framework.h $(VDSP)/212xx/include/stdio.h $(VDSP)/212xx/include/stdio_21xxx.h $(VDSP)/212xx/include/stdlib.h $(VDSP)/212xx/include/string.h ETIN80_group_7_h.h $(VDSP)/212xx/include/processor_include.h $(VDSP)/212xx/include/21262.h $(VDSP)/212xx/include/platform_include.h $(VDSP)/212xx/include/Cdef21262.h $(VDSP)/212xx/include/Cdef21266.h $(VDSP)/212xx/include/def21262.h $(VDSP)/212xx/include/def21266.h $(VDSP)/212xx/include/builtins.h $(VDSP)/212xx/include/sys/builtins_support.h 
+Release/echo.doj :Release/echo.c framework.h $(VDSP)/212xx/include/stdio.h $(VDSP)/212xx/include/stdio_21xxx.h $(VDSP)/212xx/include/stdlib.h $(VDSP)/212xx/include/string.h ETIN80_group_7_h.h $(VDSP)/212xx/include/processor_include.h $(VDSP)/212xx/include/21262.h $(VDSP)/212xx/include/platform_include.h $(VDSP)/212xx/include/Cdef21262.h $(VDSP)/212xx/include/Cdef21266.h $(VDSP)/212xx/include/def21262.h $(VDSP)/212xx/include/def21266.h $(VDSP)/212xx/include/builtins.h $(VDSP)/212xx/include/sys/builtins_support.h $(VDSP)/212xx/include/def21262.h $(VDSP)/212xx/include/def21266.h $(VDSP)/212xx/include/platform_include.h 
 	@echo ".\Release\echo.c"
 	$(VDSP)/cc21k.exe -c .\Release\echo.c -file-attr ProjectName=NewProject -O -Ov100 -structs-do-not-overlap -no-multiline -double-size-32 -warn-protos -si-revision 0.1 -proc ADSP-21262 -o .\Release\echo.doj -MM
 
-./Release/ETIN80_group_7.doj :ETIN80_group_7.c $(VDSP)/212xx/include/processor_include.h $(VDSP)/212xx/include/21262.h $(VDSP)/212xx/include/platform_include.h $(VDSP)/212xx/include/Cdef21262.h $(VDSP)/212xx/include/Cdef21266.h $(VDSP)/212xx/include/def21262.h $(VDSP)/212xx/include/def21266.h $(VDSP)/212xx/include/builtins.h $(VDSP)/212xx/include/sys/builtins_support.h $(VDSP)/212xx/include/signal.h $(VDSP)/212xx/include/string.h $(VDSP)/212xx/include/filter.h $(VDSP)/212xx/include/complex.h $(VDSP)/212xx/include/stdio.h $(VDSP)/212xx/include/stdio_21xxx.h $(VDSP)/212xx/include/stdlib.h $(VDSP)/212xx/include/math.h $(VDSP)/212xx/include/math_21xxx.h framework.h ETIN80_group_7_h.h 
+Release/ETIN80_group_7.doj :ETIN80_group_7.c $(VDSP)/212xx/include/processor_include.h $(VDSP)/212xx/include/21262.h $(VDSP)/212xx/include/platform_include.h $(VDSP)/212xx/include/Cdef21262.h $(VDSP)/212xx/include/Cdef21266.h $(VDSP)/212xx/include/def21262.h $(VDSP)/212xx/include/def21266.h $(VDSP)/212xx/include/builtins.h $(VDSP)/212xx/include/sys/builtins_support.h $(VDSP)/212xx/include/signal.h $(VDSP)/212xx/include/string.h $(VDSP)/212xx/include/filter.h $(VDSP)/212xx/include/complex.h $(VDSP)/212xx/include/stdio.h $(VDSP)/212xx/include/stdio_21xxx.h $(VDSP)/212xx/include/stdlib.h $(VDSP)/212xx/include/math.h $(VDSP)/212xx/include/math_21xxx.h framework.h ETIN80_group_7_h.h $(VDSP)/212xx/include/def21262.h $(VDSP)/212xx/include/def21266.h $(VDSP)/212xx/include/platform_include.h 
 	@echo ".\ETIN80_group_7.c"
 	$(VDSP)/cc21k.exe -c .\ETIN80_group_7.c -file-attr ProjectName=NewProject -O -Ov100 -structs-do-not-overlap -no-multiline -double-size-32 -warn-protos -si-revision 0.1 -proc ADSP-21262 -o .\Release\ETIN80_group_7.doj -MM
 
-./Release/framework.doj :framework.c $(VDSP)/212xx/include/processor_include.h $(VDSP)/212xx/include/21262.h $(VDSP)/212xx/include/platform_include.h $(VDSP)/212xx/include/Cdef21262.h $(VDSP)/212xx/include/Cdef21266.h $(VDSP)/212xx/include/def21262.h $(VDSP)/212xx/include/def21266.h $(VDSP)/212xx/include/builtins.h $(VDSP)/212xx/include/sys/builtins_support.h $(VDSP)/212xx/include/sysreg.h $(VDSP)/212xx/include/signal.h $(VDSP)/212xx/include/sru.h $(VDSP)/212xx/include/sru21262.h $(VDSP)/212xx/include/sru21266.h framework.h 
+Release/framework.doj :framework.c $(VDSP)/212xx/include/processor_include.h $(VDSP)/212xx/include/21262.h $(VDSP)/212xx/include/platform_include.h $(VDSP)/212xx/include/Cdef21262.h $(VDSP)/212xx/include/Cdef21266.h $(VDSP)/212xx/include/def21262.h $(VDSP)/212xx/include/def21266.h $(VDSP)/212xx/include/builtins.h $(VDSP)/212xx/include/sys/builtins_support.h $(VDSP)/212xx/include/sysreg.h $(VDSP)/212xx/include/signal.h $(VDSP)/212xx/include/sru.h $(VDSP)/212xx/include/sru21262.h $(VDSP)/212xx/include/sru21266.h framework.h $(VDSP)/212xx/include/def21262.h $(VDSP)/212xx/include/def21266.h $(VDSP)/212xx/include/platform_include.h 
 	@echo ".\framework.c"
 	$(VDSP)/cc21k.exe -c .\framework.c -file-attr ProjectName=NewProject -O -Ov100 -structs-do-not-overlap -no-multiline -double-size-32 -warn-protos -si-revision 0.1 -proc ADSP-21262 -o .\Release\framework.doj -MM
 
-./Release/overdrive.doj :Release/overdrive.c framework.h ETIN80_group_7_h.h 
+Release/overdrive.doj :Release/overdrive.c framework.h ETIN80_group_7_h.h 
 	@echo ".\Release\overdrive.c"
 	$(VDSP)/cc21k.exe -c .\Release\overdrive.c -file-attr ProjectName=NewProject -O -Ov100 -structs-do-not-overlap -no-multiline -double-size-32 -warn-protos -si-revision 0.1 -proc ADSP-21262 -o .\Release\overdrive.doj -MM
 
@@ -67,10 +67,10 @@ endif
 ifeq ($(MAKECMDGOALS),NewProject_Release_clean)
 
 NewProject_Release_clean:
-	-$(RM) ".\Release\echo.doj"
-	-$(RM) ".\Release\ETIN80_group_7.doj"
-	-$(RM) ".\Release\framework.doj"
-	-$(RM) ".\Release\overdrive.doj"
+	-$(RM) "Release\echo.doj"
+	-$(RM) "Release\ETIN80_group_7.doj"
+	-$(RM) "Release\framework.doj"
+	-$(RM) "Release\overdrive.doj"
 	-$(RM) ".\Release\NewProject.dxe"
 	-$(RM) ".\Release\NewProject.ldr"
 	-$(RM) ".\Release\*.ipa"

@@ -19,6 +19,8 @@ float overdrive_out[DSP_BLOCK_SIZE];
 int delayPosition = 0;
 int k = 0;
 int delay_in_samples = 0;
+float one_third = (1/3.0);
+float two_thirds = (2/3.0);
 //#include "framework.c"
 
 void process(int sig)

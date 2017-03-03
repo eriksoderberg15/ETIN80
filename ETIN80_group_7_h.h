@@ -17,6 +17,9 @@ extern float overdrive_out[DSP_BLOCK_SIZE];
 static float previous_avg_power = 0;
 static float alpha = 0.9;
 extern int delayPosition; //Starting position of the echo at 0.3s (delayPosition = bufferSize - delay_in_samples - 1)
+extern float one_third ;
+extern float two_thirds ;
+ 
 //static int timer_test = 0;	//False as standard timer set it to true when OK.
 
 //Functions
